@@ -1,6 +1,6 @@
 const accountCreationForm = document.getElementById("create-account");
 
-accountCreationForm.onsubmit = () => 
+accountCreationForm.onsubmit = (event) => 
     const username = document.getElementById("username");
     const password = document.getElementById("password");
     const passwordConfirm = document.getElementById("password-confirm");
