@@ -1,5 +1,6 @@
 sass scss/styles.scss styles.min.css --style compressed
-git autoconf
+git config --global user.name "IzaCoder"
+git config --global user.email "izacoder@icloud.com"
 git add styles.min.css
 git commit -m "Compile & minify SCSS"
 git pushmain
