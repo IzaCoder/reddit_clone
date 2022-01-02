@@ -7,6 +7,6 @@ accountCreationForm.onsubmit = (event) =>
 
     if (password !== passwordConfirm) {
         document.getElementById("error-messages").innerHTML += "Make sure the re-type password field is the same as the password field\n";
-        return false;
+        event.preventDefault();
     }
 }
