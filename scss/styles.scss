@@ -1,7 +1,7 @@
 @use "vars";
 
 html {
-    font-size: 16px;
+    font-size: vars.$base-font-size;
 }
 
 h1 {
