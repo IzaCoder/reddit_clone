@@ -1,0 +1,4 @@
+[alias]
+    autoconf = !git config --global user.name "IzaCoder" && git config --global user.email "izacoder@icloud.com"
+    pushmain = !git branch -M main && git push origin main
+    pushbr = !git branch -M $1 && git push origin $1 && :
