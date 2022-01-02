@@ -5,3 +5,10 @@ html {
 h1 {
     font-size: 3rem;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    html {
+        background-color: black;
+        color: white;
+    }
+}
